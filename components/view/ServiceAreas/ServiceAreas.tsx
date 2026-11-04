@@ -103,7 +103,7 @@ export function ServiceAreas() {
         }}
       />
 
-      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-14 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-10">
         {/* ============================================================
             HEADER — live coverage meter + legend
         ============================================================ */}
