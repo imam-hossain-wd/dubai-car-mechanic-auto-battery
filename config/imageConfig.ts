@@ -2,7 +2,7 @@
 import logo from "../assets/logo/logo-ft.png"
 
 // Hero Banner
-import hero from "../assets/hero-banner/hero-banner.png";
+import hero from "../assets/hero/hero.jpg";
 
 //service banners
 import acRepair from "../assets/service-banner/ac-repair.png";
