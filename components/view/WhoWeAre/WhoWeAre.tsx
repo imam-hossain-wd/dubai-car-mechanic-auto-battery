@@ -98,7 +98,7 @@ export function WhoWeAre() {
         <div className="absolute inset-y-0 left-10 hidden w-px bg-primary/15 lg:block xl:left-[3.25rem]" />
       </div>
 
-      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-10">
         {/* ============================================================
             HEADER — eyebrow + manifesto headline
         ============================================================ */}
