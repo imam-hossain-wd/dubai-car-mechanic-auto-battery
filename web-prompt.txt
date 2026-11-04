@@ -1,0 +1,97 @@
+
+
+-------------------------------------------
+
+/*
+24/7 availablility 
+fast Onsite Mobile Car Repair Service
+On-Site Battery & Repair
+10+ Years ASE-Certified
+All Makes & Models
+100% Genuine Parts
+Transparent & Fair Pricing
+Rapid Response Dispatch
+360° Safety Health Check
+No-Appointment Necessary
+Eco-Friendly Operations
+Customer-First Philosophy
+Rapid 5–15 Minute Onsite Arrival
+90% Onsite Repair Completion
+100% Transparent, Upfront Pricing
+24/7/365 Emergency Coverage
+Certified Mechanics & Service Warranty
+Happy Customer Rating
+100% Transparent Pricing
+Complete Onsite Diagnostic & Repair Capabilities
+Certified Technicians & Guaranteed Work
+Best Price Guarantee
+geniun battery and parts 
+certified and experienced technician 
+Expert mechanic 
+Dedicated Rescue Team 
+
+*/
+
+
+as a world class top frontend developer and ui ux design you have to design /build highly advnaced professional , highly efficative world class ultra modern design ,,eye catching ,,very unique , modern and perfect ,completely 100% different and modern also unique design from referance design/component
+------------------------------------------------------
+
+this is business info : - 
+___________________________________
+export const aboutUs = {
+    para1: "Founded in 2014, Go Battery Car Repair Mobile Mechanic Dubai was built to eliminate the frustration, towing expenses, and wasted hours associated with traditional brick-and-mortar auto garages. As a premier 24/7 mobile car repair and roadside rescue service, we operate as a fully equipped garage on wheels. We dispatch certified, expert mechanics directly to your exact GPS location—whether you are stranded on a major highway shoulder, parked in your apartment basement, or at your workplace.",
+    para2: "From urgent on-site battery replacements and jump-starts to advanced computer diagnostics, electrical troubleshooting, and emergency mechanical fixes, our technicians deliver complete auto care wherever your car is parked. Headquartered near Jebel Ali and the bustling southern Dubai corridors, our mobile rescue units blanket key service areas including Jebel Ali Industrial Area, Discovery Gardens, Dubai Marina, Jumeirah Lakes Towers (JLT), Al Furjan, and Dubai South. Backed by a rapid 5 to 30 minutes emergency response time, upfront transparent pricing, and 100% genuine parts, we bring dependable dealership-level expertise straight to your door."
+};
+
+export const whyChooseUs = [
+    {
+        name: "Rapid 5–30 Minute Onsite Arrival",
+        description: "Our mobile mechanics are strategically stationed across key Dubai highway arteries and commercial hubs, allowing us to deliver the fastest emergency dispatch and roadside response times when you need help most."
+    },
+    {
+        name: "Complete Onsite Diagnostic & Repair Capabilities",
+        description: "Equipped with state-of-the-art diagnostic scanners and specialized tools, our certified technicians resolve up to 90% of vehicle breakdowns right on the spot—completely eliminating the cost and hassle of flatbed towing."
+    },
+    {
+        name: "100% Genuine Batteries & OEM Parts",
+        description: "We supply and install only authentic, factory-approved batteries (such as Varta, Amaron, and ACDelco) and genuine replacement components, ensuring long-term durability and peak performance for all vehicle makes and models."
+    },
+    {
+        name: "100% Transparent, Upfront Pricing",
+        description: "No hidden fees, no surprise call-out charges, and no inflated workshop invoices. We provide clear, itemized pricing before starting any repair work so you always know exactly what you are paying for."
+    },
+    {
+        name: "24/7/365 Round-the-Clock Emergency Coverage",
+        description: "Car troubles don't keep regular business hours. Our dedicated rescue teams operate 24 hours a day, 7 days a week across all weekends and public holidays throughout Dubai and surrounding areas."
+    },
+    {
+        name: "Certified Technicians & Guaranteed Workmanship",
+        description: "Every service is performed by seasoned, multi-brand auto mechanics with years of hands-on expertise. We back our craftsmanship with solid service guarantees to give you complete peace of mind on the road."
+    }
+];
+
+
+-----------------------------------------------------
+
+i have provide all information of website....i want to develop this website step by step....this website design must be world class ultra modern , beautiful , responsive , professional , very efficative , responsive for all devices , don't use any animation library or extra animation,,,,i provide one by one component name  you have to design the component,,,,,,
+
+first you have to design a beautiful , unique, efficative , world class ultra modern design , responsive hero section for this website using tailwindcss , shadcnui component, remixicon for icon ,,,, so design it,,,,i provide global.css and shadcnui component file,,,, use my brand primary color,,, and support color is white or black ,,,, so design a best hero section ,,, responsive font 
+
+now you have to design a world class ultra modern and very professional mind blowing efficative and best who choose us  section three step which very unique and modern
+
+
+now you have to design a world class ultra modern and very professional mind blowing efficative and best page which very unique and modern
+
+ short hero professional responsive section
+show  
+below others content 
+
+make it best, professional , responsive , world class ultra modern and optimize code
+
+-------------------------------------
+i have provide a referance footer...now you have to design a world class ultra modern , unique and different from referance footer component , very professional mind blowing efficative and best footer component three step which very unique and modern
+-------------------------------------
+
+i have provide referance project card , project modal and project component,,,,,now you have to design a world class ultra modern , very professional mind blowing efficative and best who choose us  section three step which very unique and modern
+
+-> project card and component totally different from referance project card and component,,, it must more world class ultra modern design , unique and professional and responsive
