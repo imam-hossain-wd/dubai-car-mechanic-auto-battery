@@ -263,7 +263,7 @@ export function Hero() {
 
               {/* Ticket card */}
               <div className="relative overflow-hidden rounded-[26px] border border-border bg-muted shadow-2xl shadow-foreground/[0.08]">
-                <div className="relative aspect-[4/5] w-full sm:aspect-[3/4]">
+                <div className="relative aspect-[4/3] w-full">
                   <Image
                     src={heroBanner?.hero}
                     alt="Certified mobile car mechanic repairing a vehicle on-site in Dubai"

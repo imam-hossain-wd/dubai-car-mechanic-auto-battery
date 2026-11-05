@@ -18,79 +18,96 @@ export const SiteConfig = {
     founded: 2022,
     responseTime: "10 to 30 min",
     GMB: {
-        PlaceID: "",
-        CID: "",
-        BusinessProfileID: "",
-        mapsLink: "https://maps.app.goo.gl/kR2dQRswWQfQ3emQ6",
-        embedMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1561.7914141282195!2d55.13214795428641!3d25.04275034326857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f132db3eddcd1%3A0x4d1b1d7d9835256e!2sJebel%20Ali%20Gardens%207!5e0!3m2!1sen!2sbd!4v1791626641220!5m2!1sen!2sbd",
-        latitude: "25.0427503",
-        longitude: "55.132148",
+        PlaceID: "ChIJjxphorb9XogRV7hXO2aSsoA",
+        KGID:"/g/11n4vtpr9d",
+        CID: "9273635550489196631",
+        BusinessProfileID: "11133600780077976067",
+        mapsLink: "https://maps.app.goo.gl/fFBV7BR9Uie13WRg8",
+        embedMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0753563794206!2d55.31082804024174!3d25.09931034254649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885efdb6a2611a8f%3A0x80b292663b57b857!2sDubai%20car%20mechanic%20and%20battery%20service!5e0!3m2!1sen!2sbd!4v1793894297964!5m2!1sen!2sbd",
+        latitude: "25.147681",
+        longitude: "55.1328208",
     },
-    serviceAreas: [
-    {
-        name: "Jebel Ali Industrial Area",
-        slug: "jebel-ali-industrial-area"
-    },
-    {
-        name: "Discovery Gardens",
-        slug: "discovery-gardens"
-    },
-    {
-        name: "Al Furjan",
-        slug: "al-furjan"
-    },
-    {
-        name: "Dubai Investment Park First",
-        slug: "dubai-investment-park-first"
-    },
-    {
-        name: "Jumeirah Lakes Towers",
-        slug: "jumeirah-lakes-towers"
-    },
-    {
-        name: "Dubai Marina",
-        slug: "dubai-marina"
-    },
-    {
-        name: "Jumeirah Park",
-        slug: "jumeirah-park"
-    },
-    {
-        name: "Jumeirah Islands",
-        slug: "jumeirah-islands"
-    },
-    {
-        name: "Jumeirah Beach Residence",
-        slug: "jumeirah-beach-residence"
-    },
-    {
-        name: "Jebel Ali Freezone",
-        slug: "jebel-ali-freezone"
-    },
-    {
-        name: "Dubai Production City",
-        slug: "dubai-production-city"
-    },
-    {
-        name: "Dubai Sports City",
-        slug: "dubai-sports-city"
-    },
-    {
-        name: "Jabal Ali Industrial Second",
-        slug: "jabal-ali-industrial-second"
-    },
-    {
-        name: "Dubai South",
-        slug: "dubai-south"
-    },
-    {
-        name: "Madinat Latifa",
-        slug: "madinat-latifa"
-    },
-    {
-        name: "Dubai Investment Park Second",
-        slug: "dubai-investment-park-second"
-    }
+serviceAreas: [
+  {
+    name: "Majan",
+    slug: "majan"
+  },
+  {
+    name: "Al Barari",
+    slug: "al-barari"
+  },
+  {
+    name: "Living Legends",
+    slug: "living-legends"
+  },
+  {
+    name: "Falcon City of Wonders",
+    slug: "falcon-city-of-wonders"
+  },
+  {
+    name: "City of Arabia",
+    slug: "city-of-arabia"
+  },
+  {
+    name: "Arabian Ranches",
+    slug: "arabian-ranches"
+  },
+  {
+    name: "The Villa",
+    slug: "the-villa"
+  },
+  {
+    name: "Dubailand Oasis",
+    slug: "dubailand-oasis"
+  },
+  {
+    name: "Dubai Silicon Oasis",
+    slug: "dubai-silicon-oasis"
+  },
+  {
+    name: "Academic City",
+    slug: "academic-city"
+  },
+  {
+    name: "Nad Al Sheba",
+    slug: "nad-al-sheba"
+  },
+  {
+    name: "Mudon",
+    slug: "mudon"
+  },
+  {
+    name: "Serena",
+    slug: "serena"
+  },
+  {
+    name: "Town Square Dubai",
+    slug: "town-square-dubai"
+  },
+  {
+    name: "Remraam",
+    slug: "remraam"
+  },
+  {
+    name: "Dubai Studio City",
+    slug: "dubai-studio-city"
+  },
+  {
+    name: "Motor City",
+    slug: "motor-city"
+  },
+  {
+    name: "Dubai Sports City",
+    slug: "dubai-sports-city"
+  },
+  {
+    name: "Meydan District One",
+    slug: "meydan-district-one"
+  },
+  {
+    name: "Ras Al Khor Industrial Area",
+    slug: "ras-al-khor-industrial-area"
+  }
 ],
 
     operatingHours: [
