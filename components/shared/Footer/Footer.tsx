@@ -102,120 +102,12 @@ export default function Footer() {
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
       </div>
 
-      {/* ==============================================================
-          CLOSE STRIP — "Command close" banner
-      ============================================================== */}
-      <div className="relative border-b border-background/[0.08]">
-        <div className="mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:gap-10 lg:py-16">
-            {/* Headline column */}
-            <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/[0.10] px-3 py-1">
-                <span className="relative flex size-1.5">
-                  <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary/60" />
-                  <span className="relative inline-flex size-1.5 rounded-full bg-primary" />
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
-                  Dispatch online · {city}
-                </span>
-              </div>
-
-              <h2
-                id="footer-title"
-                className="mt-5 font-serif text-[clamp(1.9rem,4.4vw,3.4rem)] font-bold leading-[1.02] -tracking-[0.028em] text-background"
-              >
-                Car trouble?
-                <br className="hidden sm:block" />{" "}
-                We&apos;ll come{" "}
-                <span className="relative inline-block">
-                  <span className="relative z-10 italic text-primary">
-                    to you
-                  </span>
-                  <svg
-                    aria-hidden
-                    viewBox="0 0 200 20"
-                    className="absolute -bottom-0.5 left-0 z-0 h-2 w-full text-primary/40"
-                    preserveAspectRatio="none"
-                  >
-                    <path
-                      d="M2 14 C 50 4, 100 18, 150 10 S 190 4, 198 12"
-                      stroke="currentColor"
-                      strokeWidth="5"
-                      fill="none"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                </span>
-                .
-              </h2>
-
-              <p className="mt-5 max-w-lg text-[14.5px] leading-relaxed text-background/60">
-                Certified mechanics, genuine parts, {responseTime} dispatch
-                across {city} — 24/7, 365 days.
-              </p>
-            </div>
-
-            {/* Terminal block */}
-            <div className="lg:col-span-5">
-              <div className="overflow-hidden rounded-2xl border border-background/[0.10] bg-background/[0.03] backdrop-blur-sm">
-                {/* Terminal head */}
-                <div className="flex items-center justify-between border-b border-background/[0.08] px-5 py-3">
-                  <span className="inline-flex items-center gap-2 text-[9.5px] font-bold uppercase tracking-[0.2em] text-background/60">
-                    <RiRadarFill className="size-3 text-primary" />
-                    Emergency line
-                  </span>
-                  <span className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase tracking-[0.18em] text-primary">
-                    <span className="size-1.5 rounded-full bg-emerald-500" />
-                    Live
-                  </span>
-                </div>
-
-                {/* Primary call */}
-                <Link
-                  href={numberCallLink}
-                  className="group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-primary/[0.08]"
-                >
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-lg shadow-primary/25 transition-transform group-hover:scale-105">
-                    <RiPhoneFill className="size-4" />
-                  </span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-[9.5px] font-bold uppercase tracking-[0.2em] text-background/50">
-                      Call now · 24/7
-                    </span>
-                    <span className="mt-0.5 block truncate text-base font-bold text-background">
-                      {displayNumber}
-                    </span>
-                  </span>
-                  <RiArrowRightLine className="size-4 shrink-0 text-background/40 transition-transform group-hover:translate-x-1 group-hover:text-primary" />
-                </Link>
-
-                {/* Divider */}
-                <div className="h-px bg-background/[0.08]" />
-
-                {/* WhatsApp */}
-                <Link
-                  href={whatsappCallLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-3 px-5 py-3.5 transition-colors hover:bg-primary/[0.08]"
-                >
-                  <RiWhatsappFill className="size-4 text-primary" />
-                  <span className="text-[13px] font-semibold text-background/85">
-                    WhatsApp dispatch
-                  </span>
-                  <RiArrowRightUpLine className="ml-auto size-3.5 text-background/40 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+ 
       {/* ==============================================================
           MAIN — 12-col editorial grid
       ============================================================== */}
       <div className="relative mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12">
-        <div className="grid grid-cols-1 gap-10 py-12 lg:grid-cols-12 lg:gap-8 lg:py-14">
+        <div className="grid grid-cols-1 gap-10 py-8 lg:grid-cols-12 lg:gap-8 ">
           {/* ----------------------------------------------------------
               COL 1 — Brand dossier (4/12)
           ---------------------------------------------------------- */}
@@ -316,32 +208,20 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <ColumnHead title="Services" count={services.length} />
 
-            <ol className="mt-4 divide-y divide-background/[0.06] border-y border-background/[0.06]">
+            <ul className="mt-4 divide-y divide-background/[0.06] border-y border-background/[0.06]">
               {services.map((service, i) => (
-                <li key={service.slug}>
+
+                    <li key={service.slug}>
                   <Link
-                    href={`/services/${service.slug}`}
-                    className="group flex items-center gap-3 py-2 transition-colors hover:text-primary"
+                    href={`/area-we-serve/${service.slug}`}
+                    className="group flex items-center gap-2 rounded-md px-2 py-1.5 text-[11.5px] font-medium text-background/60 transition-colors hover:bg-background/[0.04] hover:text-background"
                   >
-                    <span className="font-mono text-[9.5px] font-bold tabular-nums text-background/30 transition-colors group-hover:text-primary/70">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <span className="truncate text-[12.5px] font-medium text-background/65 transition-colors group-hover:text-background">
-                      {service.name}
-                    </span>
-                    <RiArrowRightUpLine className="ml-auto size-3 shrink-0 text-background/20 opacity-0 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100 group-hover:text-primary" />
+                    <span className="size-1 shrink-0 rounded-full bg-primary/50 transition-colors group-hover:bg-primary" />
+                    <span className="truncate">{service.name}</span>
                   </Link>
                 </li>
               ))}
-            </ol>
-
-            <Link
-              href="/services"
-              className="group mt-4 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.18em] text-primary hover:text-primary/80"
-            >
-              All services
-              <RiArrowRightLine className="size-3 transition-transform group-hover:translate-x-0.5" />
-            </Link>
+            </ul>
           </div>
 
           {/* ----------------------------------------------------------
@@ -351,7 +231,7 @@ export default function Footer() {
             <ColumnHead title="Coverage" count={serviceAreas.length} />
 
             <ul className="mt-4 flex flex-col gap-0.5">
-              {serviceAreas.slice(0, 8).map((area) => (
+              {serviceAreas.map((area) => (
                 <li key={area.slug}>
                   <Link
                     href={`/area-we-serve/${area.slug}`}
@@ -363,14 +243,6 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-
-            <Link
-              href="/area-we-serve"
-              className="group mt-3 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.18em] text-primary hover:text-primary/80"
-            >
-              All areas
-              <RiArrowRightLine className="size-3 transition-transform group-hover:translate-x-0.5" />
-            </Link>
           </div>
 
           {/* ----------------------------------------------------------

@@ -301,7 +301,7 @@ export default function Reviews({
                 <span className="hidden size-1 rounded-full bg-border sm:inline-block" />
                 <span className="inline-flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
                   <RiCarFill className="size-3 text-primary" />
-                  {featured.vehicle}
+                  {featured?.vehicle}
                 </span>
                 <span className="hidden size-1 rounded-full bg-border sm:inline-block" />
                 <span className="inline-flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
@@ -327,7 +327,7 @@ export default function Reviews({
                 ))}
               </div>
               <p className="text-[10.5px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
-                {featured.date}
+                {featured?.date}
               </p>
               <span className="mt-1 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-background px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-[0.16em] text-primary">
                 <RiCheckDoubleFill className="size-2.5" />

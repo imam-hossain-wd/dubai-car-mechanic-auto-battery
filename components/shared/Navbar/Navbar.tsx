@@ -247,8 +247,6 @@ export function Navbar() {
             <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
               {navItems.map((item, idx) => {
                 const active = isActive(item.href);
-                const index = String(idx + 1).padStart(2, "0");
-
                 return (
                   <div
                     key={item.name}
@@ -277,7 +275,6 @@ export function Navbar() {
                             : "text-muted-foreground/60 group-hover:text-primary/60"
                         )}
                       >
-                        {index}
                       </span>
                       <span>{item.name}</span>
                       {item.hasDropdown && (
@@ -540,7 +537,6 @@ export function Navbar() {
                     >
                       <span className="flex items-center gap-3">
                         <span className="font-mono text-[10px] font-bold tabular-nums text-primary/60">
-                          {index}
                         </span>
                         <span
                           className={cn(
@@ -641,7 +637,7 @@ export function Navbar() {
                         active ? "text-primary/80" : "text-muted-foreground/70"
                       )}
                     >
-                      {index}
+                      {/* {index} */}
                     </span>
                     {item.name}
                   </span>
