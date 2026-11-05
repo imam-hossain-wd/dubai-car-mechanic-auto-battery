@@ -1,4 +1,5 @@
 // data/review.ts
+
 import { Review } from "@/types/review";
 
 export const generatePlaceholderReviews = (): Review[] => [
