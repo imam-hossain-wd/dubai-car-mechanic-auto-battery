@@ -1,5 +1,5 @@
 // Logo
-import logo from "../assets/logo/logo-ft.png"
+import logo from "../assets/logo/logo.png"
 
 // Hero Banner
 import hero from "../assets/hero/hero.jpg";
