@@ -1,5 +1,5 @@
 import { projectImages } from "@/config/imageConfig";
-import { ProjectItem } from "@/types/projects";
+import { ProjectItem } from "@/types/project";
 
 
 
