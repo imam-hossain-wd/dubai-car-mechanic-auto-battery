@@ -1,7 +1,4 @@
-// app/(marketing)/services/page.tsx
-
 import Link from "next/link";
-import type { Metadata } from "next";
 import {
   RiArrowRightLine,
   RiArrowRightUpLine,
@@ -21,12 +18,6 @@ import { SiteConfig } from "@/config/siteConfig";
 import { services } from "@/data/services/services";
 import { ServiceCard } from "@/components/shared/Card/ServiceCard";
 
-/* ============ SEO ============ */
-export const metadata: Metadata = {
-  title: `Services — ${SiteConfig.brandName}`,
-  description: `${services.length}+ onsite mobile car repair services across ${SiteConfig.city}. Battery, brakes, AC, diagnostics — delivered to your location in ${SiteConfig.responseTime}.`,
-  alternates: { canonical: `${SiteConfig.url}/services` },
-};
 
 export default function ServicesPage() {
   const {
