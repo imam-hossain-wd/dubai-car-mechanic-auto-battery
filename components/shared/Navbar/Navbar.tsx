@@ -62,7 +62,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services", hasDropdown: true },
-  { name: "Service Area", href: "/service-area" },
+  { name: "Service Area", href: "/service-areas" },
   { name: "About", href: "/about-us" },
   { name: "Contact", href: "/contact-us" },
 ];

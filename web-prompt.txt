@@ -36,6 +36,8 @@ Dedicated Rescue Team
 as a world class top frontend developer and ui ux design you have to design /build highly advnaced professional , highly efficative world class ultra modern design ,,eye catching ,,very unique , modern and perfect ,completely 100% different and modern also unique design from referance design/component
 ------------------------------------------------------
 
+use a very professional responsive, professional and perfect padding margin,,,contact page hero section,,then others section
+
 this is business info : - 
 ___________________________________
 export const aboutUs = {
