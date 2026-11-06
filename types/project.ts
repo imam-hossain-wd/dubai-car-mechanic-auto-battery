@@ -1,3 +1,4 @@
+// types/project.ts
 export interface ProjectSEO {
   metaTitle: string;
   metaDescription: string;
@@ -16,7 +17,6 @@ export interface ProjectFAQ {
   answer: string;
 }
 
-/** Full project shape used across the app */
 export interface Project {
   id?: string;
   slug?: string;
@@ -24,7 +24,7 @@ export interface Project {
   service: string;
   category?: string;
   area: string;
- description?: string;
+  description?: string;
   image?: string | any;
   seo?: ProjectSEO;
   clientOverview?: ProjectClientOverview;
@@ -36,7 +36,6 @@ export interface Project {
   faqs?: ProjectFAQ[];
 }
 
-/** Full item — all fields required (used for source data) */
 export interface ProjectItem {
   id: string;
   slug: string;
