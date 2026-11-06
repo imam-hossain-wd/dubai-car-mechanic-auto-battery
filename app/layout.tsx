@@ -5,6 +5,7 @@ import { Navbar } from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import FloatingButtons from "@/components/shared/FloatingButtons/FloatingButtons";
 import SchemaScript from "@/seo/SchemaScript/SchemaScript";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 
 const notoSerif = Noto_Serif({subsets:['latin'],variable:'--font-serif'});
@@ -34,6 +35,7 @@ export default function RootLayout({
         <main>
           <Navbar />
           <SchemaScript />
+          <GoogleTagManager gtmId="GTM-T7FNQWTK" />
           <FloatingButtons />
         {children}
         <Footer />
@@ -42,3 +44,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+
