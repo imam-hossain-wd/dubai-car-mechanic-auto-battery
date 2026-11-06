@@ -1,6 +1,7 @@
 import { FeaturedServices } from '@/components/view/FeaturedServices/FeaturedServices';
 import Hero from '@/components/view/Hero/hero'
 import { Maps } from '@/components/view/Maps/Maps';
+import Projects from '@/components/view/Projects/Projects';
 import Reviews from '@/components/view/Reviews/Reviews';
 import ServiceAreas from '@/components/view/ServiceAreas/ServiceAreas'
 import WhoWeAre from '@/components/view/WhoWeAre/WhoWeAre'
@@ -15,6 +16,7 @@ export default function HomePage() {
         <ServiceAreas />
         <WhoWeAre />
         <WhyChooseUs />
+        <Projects />
         <Maps />
         <Reviews />
     </div>
