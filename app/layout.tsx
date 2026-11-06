@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import FloatingButtons from "@/components/shared/FloatingButtons/FloatingButtons";
+import SchemaScript from "@/seo/SchemaScript/SchemaScript";
 
 
 const notoSerif = Noto_Serif({subsets:['latin'],variable:'--font-serif'});
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body>
         <main>
           <Navbar />
+          <SchemaScript />
           <FloatingButtons />
         {children}
         <Footer />

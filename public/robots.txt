@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.dubaicarmechanicbattery.com/sitemap.xml
