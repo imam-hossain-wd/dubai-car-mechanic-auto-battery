@@ -5,8 +5,8 @@ import Link from "next/link"
 
 export default function Logo() {
   return (
-    <Link
-      href="/"
+    <div
+      // href="/"
       aria-label={SiteConfig.brandName}
       className="relative flex shrink-0 items-center gap-2.5"
     >
@@ -32,6 +32,6 @@ export default function Logo() {
           Car Repair Mechanic
         </span>
       </div> */}
-    </Link>
+    </div>
   )
 }
