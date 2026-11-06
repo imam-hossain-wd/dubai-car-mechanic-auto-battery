@@ -69,7 +69,7 @@ export function Projects() {
         <div className="absolute bottom-0 left-1/4 h-[320px] w-[320px] rounded-full bg-primary/[0.05] blur-[110px]" />
       </div>
 
-      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+      <div className="relative mx-auto w-full max-w-[1400px] px-5 py-10">
         {/* ============================================================
             HEADER — editorial + stat rail
         ============================================================ */}

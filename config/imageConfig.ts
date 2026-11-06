@@ -26,54 +26,57 @@ import carService from "../assets/service-banner/car-service.jpg";
 import carrepair from "../assets/service-banner/ac-repair.png";
 import windowTint from "../assets/service-banner/car-windows-tint.jpg";
 
-import absSystem from '../assets/projects/abs-system.jpeg';
-import absSystemBreakpadRepair from '../assets/projects/abs-system-breakpad-repair.jpeg';
-import absSystemRepair from '../assets/projects/abs-system-repair.jpeg';
-import batterReplacement2 from '../assets/projects/batter-replacement-2.jpeg';
-import batteryInstallation from '../assets/projects/battery-installation.jpeg';
-import batteryreplacement from '../assets/projects/battery-replacement.jpeg';
-import carAcRepair from '../assets/projects/car-ac-repair.jpeg';
-import carNotStartingFix from '../assets/projects/car-not-starting-fix.jpeg';
-import carRepair from '../assets/projects/car-repair.jpeg';
-import dentPaint from '../assets/projects/dent-paint.jpeg';
-import dentPaintRepair from '../assets/projects/dent-paint-repair.jpeg';
-import engineRepair from '../assets/projects/engine-repair.jpeg';
-import garageCarRepair from '../assets/projects/garage-car-repair.jpeg';
-import refillGas from '../assets/projects/gas-refill.jpeg';
-import headlightRepair from '../assets/projects/headlight-repair.jpeg';
-import onsiteCarRepair from '../assets/projects/onsite-car-repair.jpeg';
-import parkingCarRepair from '../assets/projects/parking-car-repair.jpeg';
-import raditorRepair from '../assets/projects/raditor-repair.jpeg';
-import repairEngine from '../assets/projects/repair-engine.jpeg';
-import replaceBattery from '../assets/projects/replace-battery.jpeg';
+import project1 from '../assets/projects/1.jpeg'; 
+import project2 from '../assets/projects/2.jpeg'; 
+import project3 from '../assets/projects/3.jpeg'; 
+import project4 from '../assets/projects/4.jpeg'; 
+import project5 from '../assets/projects/5.jpeg'; 
+import project6 from '../assets/projects/6.jpeg'; 
+import project7 from '../assets/projects/7.jpeg'; 
+import project8 from '../assets/projects/8.jpeg'; 
+import project9 from '../assets/projects/9.jpeg'; 
+import project10 from '../assets/projects/10.jpeg'; 
+import project11 from '../assets/projects/11.jpeg'; 
+import project12 from '../assets/projects/12.jpeg'; 
+import project13 from '../assets/projects/13.jpeg'; 
+import project14 from '../assets/projects/14.jpeg'; 
+import project15 from '../assets/projects/15.jpeg'; 
+import project16 from '../assets/projects/16.jpeg'; 
+import project17 from '../assets/projects/17.jpeg'; 
+import project18 from '../assets/projects/18.jpeg'; 
+import project19 from '../assets/projects/19.jpeg'; 
+
+
+
+
+
+export const projectImages = {
+project1,
+project2,
+project3,
+project4,
+project5,
+project6,
+project7,
+project8,
+project9,
+project10,
+project11,
+project12,
+project13,
+project14,
+project15,
+project16,
+project17,
+project18,
+project19,
+};
 
 
 
 export const brandLogo = {
   logo
 }
-export const projectImages = {
-  absSystem,
-  absSystemBreakpadRepair,
-  absSystemRepair,
-  batterReplacement2,
-  batteryInstallation,
-  batteryreplacement,
-  carAcRepair,
-  carNotStartingFix,
-  carRepair,
-  dentPaint,
-  dentPaintRepair,
-  engineRepair,
-  garageCarRepair,
-  refillGas,
-  headlightRepair,
-  onsiteCarRepair,
-  parkingCarRepair,
-  raditorRepair,
-  repairEngine,
-  replaceBattery,
-};
 
 
 export const ServiceBanner = {
