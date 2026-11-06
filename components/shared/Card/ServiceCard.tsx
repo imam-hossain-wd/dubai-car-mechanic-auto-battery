@@ -23,7 +23,7 @@ export function ServiceCard({
   className,
   index = 0,
 }: ServiceCardProps) {
-  const displayFeatures = features.slice(0, 3);
+  const displayFeatures = features.slice(0, 4);
   const folio = String(index + 1).padStart(2, "0");
   const description =
     intro?.content?.split(".")[0]?.slice(0, 96)?.trim() + "…" || "";
@@ -31,9 +31,9 @@ export function ServiceCard({
   return (
     <article
       className={cn(
-        "group relative isolate flex flex-col overflow-hidden rounded-2xl border border-border bg-card",
+        "group relative isolate flex flex-col overflow-hidden  border  bg-card",
         "transition-colors duration-200",
-        "hover:border-primary/40",
+        "border-primary/40",
         className
       )}
     >
@@ -67,7 +67,7 @@ export function ServiceCard({
           </span>
           <span className="size-1 rounded-full bg-primary/40" />
           <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-muted-foreground">
-            Service
+            24/7 Onsite Available
           </span>
         </div>
 
@@ -142,15 +142,15 @@ export function ServiceCard({
         )}
 
         {/* Spacer */}
-        <div className="flex-1 py-3" />
+        {/* <div className="flex-1 py-3" /> */}
 
         {/* ETA row */}
-        <div className="flex items-center gap-2 rounded-lg border border-border bg-background px-2.5 py-1.5 text-[10.5px] font-semibold">
+        {/* <div className="flex items-center gap-2 rounded-lg border border-border bg-background px-2.5 py-1.5 text-[10.5px] font-semibold">
           <RiTimeFill className="size-3 shrink-0 text-primary" />
           <span className="text-foreground">{SiteConfig.responseTime}</span>
           <span className="size-1 rounded-full bg-border" />
           <span className="text-muted-foreground">Onsite</span>
-        </div>
+        </div> */}
       </div>
 
       {/* ============================================================
@@ -168,7 +168,7 @@ export function ServiceCard({
         <Link
           href={`/services/${slug}`}
           aria-label={`Open ${name}`}
-          className="flex size-8 items-center justify-center rounded-lg border border-border bg-background text-muted-foreground transition-colors group-hover:border-primary/40 group-hover:text-primary hover:bg-primary hover:text-primary-foreground"
+          className="flex size-8 items-center justify-center  border border-border transition-colors bg-primary text-primary-foreground"
         >
           <RiArrowRightUpLine className="size-3.5" />
         </Link>

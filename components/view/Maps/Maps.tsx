@@ -33,7 +33,7 @@ import {
 } from "@remixicon/react";
 
 import { cn } from "@/lib/utils";
-import { SiteConfig, streetAddress } from "@/config/siteConfig";
+import { SiteConfig } from "@/config/siteConfig";
 
 /* ------------------------------------------------------------------ */
 /*  Quick-select service chips — fast path into the form              */
@@ -324,10 +324,10 @@ export function Maps() {
                           Dispatch base
                         </p>
                         <p className="mt-0.5 text-[12.5px] font-bold text-foreground">
-                          {streetAddress}
+                          {location}
                         </p>
                         <p className="text-[10.5px] text-muted-foreground">
-                          {location} · {city}
+                          {city}
                         </p>
                       </div>
                     </div>

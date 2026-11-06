@@ -1,16 +1,15 @@
-// types/card.ts
-
 export interface Review {
   name: string;
   area: string;
-  rating: number; // typically 1 - 5
+  rating: number;
   text: string;
+  date: string;
+  service: string;
+  vehicle: string;
 }
-
 
 export interface ReviewsProps {
   reviews?: Review[];
-  title?: string;
   subtitle?: string;
   autoplay?: boolean;
   autoplayInterval?: number;

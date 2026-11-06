@@ -21,7 +21,7 @@ import {
   RiCheckDoubleFill,
 } from "@remixicon/react";
 
-import { SiteConfig, streetAddress } from "@/config/siteConfig";
+import { SiteConfig} from "@/config/siteConfig";
 import { services } from "@/data/services/services";
 import Logo from "../Logo/Logo";
 
@@ -113,8 +113,8 @@ export default function Footer() {
           ---------------------------------------------------------- */}
           <div className="lg:col-span-4">
             {/* Logo */}
-            <div className="w-fit rounded-xl bg-white p-2">
-              <div className="w-44 sm:w-48">
+            <div className="w-fit rounded bg-white p-2">
+              <div className="">
                 <Logo />
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function Footer() {
                 icon={RiMapPinFill}
                 href={GMB.mapsLink}
                 label="Base"
-                value={`${streetAddress}, ${location}`}
+                value={`${location}`}
                 external
               />
             </ul>
